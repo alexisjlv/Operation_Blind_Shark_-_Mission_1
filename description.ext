@@ -1,0 +1,45 @@
+// === MISSION OVERVIEW
+
+enableDebugConsole = 2;
+overviewText 	= "Operation Blind Shark - Gather intel to neutralize a potential AA site";	// mission summary
+overviewPicture = "Img\Snapshot.jpg";
+
+
+
+// === LOAD SCREEN
+
+onLoadName 		= Operation Blind Shark;
+author 			= Faiblar;									
+onLoadMission 	= Operation Blind Shark;
+loadScreen 		= "Img\Overlay.jpg";
+
+
+// === RESPAWN
+
+respawn = "BASE";
+respawnDelay = 5;
+respawnDialog = false;
+
+
+
+// === SOUNDS
+
+class CfgSounds
+{
+	// Definition for potential alarm
+	class alarma_aeriana_scurt
+	{
+		name = "alarma_aeriana_scurt";
+		sound[] = {\audio\alarma_aeriana_scurt.ogg, db+10, 1.0};
+		titles[] = {0, ""};	
+	};		
+	
+	
+	// Definition for Russian Music Radio
+	class russian_music_radio
+	{
+		name = "sas_one";
+		sound[] = {\audio\russian_music_radio.ogg, db+10, 1.0};
+		titles[] = {0, ""};	
+	};		
+};
