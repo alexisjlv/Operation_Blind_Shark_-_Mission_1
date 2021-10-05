@@ -2,7 +2,7 @@
 
 enableDebugConsole = 2;
 overviewText 	= "Operation Blind Shark - Gather intel to neutralize a potential AA site";	// mission summary
-overviewPicture = "Img\Snapshot.jpg";
+overviewPicture = "img\Snapshot.jpg";
 
 
 
@@ -11,7 +11,7 @@ overviewPicture = "Img\Snapshot.jpg";
 onLoadName 		= Operation Blind Shark;
 author 			= Faiblar;									
 onLoadMission 	= Operation Blind Shark;
-loadScreen 		= "Img\Overlay.jpg";
+loadScreen 		= "img\Overlay.jpg";
 
 
 // === RESPAWN
@@ -35,11 +35,34 @@ class CfgSounds
 	};		
 	
 	
-	// Definition for Russian Music Radio
+	// Definition for Russian Music Radio related stuff
 	class russian_music_radio
 	{
-		name = "sas_one";
-		sound[] = {\audio\russian_music_radio.ogg, db+10, 1.0};
+		name = "russian_music_radio";
+		sound[] = {\audio\russian_music_radio.ogg, db+30, 1.0};
 		titles[] = {0, ""};	
-	};		
+	};
+
+	class russian_music_radio_shut_up
+	{
+		name = "russian_music_radio_shut_up";
+		sound[] = {\audio\russian_music_radio_shut_up.ogg, db+30, 1.0};
+		titles[] = {0, ""};	
+	};
+
+	class russian_music_radio_destroyed
+	{
+		name = "russian_music_radio_destroyed";
+		sound[] = {\audio\russian_music_radio_destroyed.ogg, db+40, 1.0};
+		titles[] = {0, ""};	
+	};	
+
+
+	// Definition for Russian MLRS hitting the tunnel
+	class mlrs_impact
+	{
+		name = "mlrs_impact";
+		sound[] = {\audio\mlrs_impact.ogg, db+100, 1.0};
+		titles[] = {0, ""};	
+	};
 };
