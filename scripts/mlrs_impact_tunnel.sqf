@@ -10,16 +10,17 @@ sleep 0;
 addCamShake [3, 2, 2];
 
 
+// create dust
 private _ps2 = "#particlesource" createVehicleLocal _posATL;
 _ps2 setParticleParams
 [
 	["\A3\data_f\ParticleEffects\Universal\Universal", 16, 12, 0, 8],
-	"", "Billboard", 1, 10,						// animationName, type, timerPeriod, lifeTime
+	"", "Billboard", 1, 15,						// animationName, type, timerPeriod, lifeTime
 	[0,0,15],									// position relative to referenceObject
 	[0,0,-2],									// velocity
-	1, 1.5, 1, 0.2, [2, 3],		// rotation, weight, volume, rubbing, size
+	1, 0.5, 0.38, 0, [3, 4],		// rotation, weight, volume, rubbing, size
 	[[0.5,0.5,0.5,0.35], [0.5,0.5,0.5,0.4], [0.5,0.5,0.5,0.3]],	// colors
-	[1],										// animationPhase
+	[10],										// animationPhase
 	1, 0,										// randomDirectionPeriod, randomDirectionIntensity
 	"", "",										// onTimer, beforeDestroy
 	_ps2,										// referenceObject
@@ -27,13 +28,12 @@ _ps2 setParticleParams
 	-1, [],										// bounceOnSurface, emissiveColor
 	[0,1,0]										// vectorDir - CANNOT be [0,0,0]
 ];
-_ps2 setParticleRandom [0, [60, 60, 0], [0.25, 0.25, 0], 0, 1.5, [0, 0, 0, 0], 0, 0];
-_ps2 setDropInterval 0.001;
+_ps2 setParticleRandom [0, [60, 40, 0], [0.25, 0.25, 0], 0, 1.5, [0, 0, 0, 0], 0, 0];
+_ps2 setDropInterval 0.003;
 
 
 sleep 2;
 addCamShake [4, 7, 4];
-
 
 
 // ceates rock fall
@@ -43,11 +43,11 @@ _ps1 setParticleParams [
 	1, 10, 
 	[0, 0, 30], 
 	[0, 0, -2], 
-	1, 10, 1, 0.2, [0.3, 0.5],
+	1, 8, 1, 0, [0.1, 0.2],
 	[[0.5, 0.5, 0.5 ,1]],
 	[0, 1], 1, 0, "", "", _ps1];
-_ps1 setParticleRandom [0, [60, 60, 0], [0.25, 0.25, 0], 0, 1.5, [0, 0, 0, 0], 0, 0];
-_ps1 setDropInterval 0.001;
+_ps1 setParticleRandom [0, [60, 40, 0], [0.25, 0.25, 0], 0, 1.5, [0, 0, 0, 0], 0, 0];
+_ps1 setDropInterval 0.002;
 
 
 
@@ -65,6 +65,9 @@ sleep 7;
 addCamShake [3, 40, 3];
 
 sleep 30;
+// removes rock fall
 deleteVehicle _ps1;
-sleep 30;
+sleep 3;
+
+// removes dust
 deleteVehicle _ps2;
