@@ -7,7 +7,6 @@ _startHeliData = [[10,[-1547.55,-1921.77,8.553],[-0.52374,-0.851875,0.00218284],
 
 
 sleep 3;
-10 setRain 1;
 
 
 sleep 40;
@@ -18,4 +17,3 @@ start_heli animateDoor ['door_L', 0];
 sleep 140;
 start_heli animateDoor ['door_R', 1];  
 start_heli animateDoor ['door_L', 1];
-120 setRain 0.2;
