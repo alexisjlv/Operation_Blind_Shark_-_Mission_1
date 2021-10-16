@@ -14,4 +14,4 @@
 	0,													// Priority
 	true,												// Remove on completion
 	false												// Show in unconscious state
-] remoteExec ["BIS_fnc_holdActionAdd", 0, intelOne];	// MP compatible implementation
+] call BIS_fnc_holdActionAdd;	// MP compatible implementation
