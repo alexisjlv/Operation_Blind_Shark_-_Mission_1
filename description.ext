@@ -148,4 +148,12 @@ class CfgSounds
 		sound[] = {\audio\radio_noise.ogg, db+20, 1.0};
 		titles[] = {0, ""};	
 	};
+
+	// Briefing
+	class briefing
+	{
+		name = "briefing";
+		sound[] = {\audio\briefing.ogg, db+30, 1.0};
+		titles[] = {0, ""};	
+	};
 };

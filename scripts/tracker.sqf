@@ -1,3 +1,5 @@
+// Marks the Hideout entrance for the radio wand of the Contact DLC
+
 missionNamespace setVariable ["#EM_FMin", 140];
 missionNamespace setVariable ["#EM_FMax", 143];
 missionNamespace setVariable ["#EM_SMin", -60];

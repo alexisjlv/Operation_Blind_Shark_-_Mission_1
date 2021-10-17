@@ -12,8 +12,20 @@ sleep 3;
 sleep 40;
 start_heli animateDoor ['door_R', 0];  
 start_heli animateDoor ['door_L', 0];
+start_heli action ["LandGearUp", start_heli]; 
 
 
 sleep 140;
 start_heli animateDoor ['door_R', 1];  
 start_heli animateDoor ['door_L', 1];
+
+sleep 10;
+start_heli action ["LandGear", start_heli]; 
+
+sleep 20;
+start_heli animateDoor ['door_R', 0];  
+start_heli animateDoor ['door_L', 0];
+start_heli action ["LandGearUp", start_heli]; 
+
+sleep 45;
+deleteVehicle start_heli;

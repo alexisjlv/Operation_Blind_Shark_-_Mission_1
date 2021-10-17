@@ -1,0 +1,135 @@
+Characters :
+- Briefing commander
+- Mission HQ (Women)    | Darkstar
+- Team 1, North Island  | 
+- Team 2 - Us, no voiceover
+- Pilot | Viper 2-1
+
+
+Deckard - Serious, Light Hearted, Battle
+
+Gray - Happy
+
+Sorine - Lighthearted, Fierce
+
+Steel - Briefing
+
+Evelyn - Default
+
+Ava - Polite
+
+Atlas - Lighthearted
+
+
+aitch em ess
+
+====================
+Briefing // Done
+====================
+[Briefind commander | Voice] Hi team 2, welcome aboard the HMS Kent.
+
+I hope you have all read the full briefing, in case you haven't, here's a summary.
+
+We are deploying on the Suursaari archipelago to take it back from the hands of the Russians after they claimed and captured it last year, an action driven by the recent discovery of oil and gas deposits in the area. The archipelago itself is also a strategic position for Russia because of its geographic location, situated between Finland and Estonia, Russia's closest neighbors. Since then, Russia acted fast and built numerous military structures on the archipelago, including an airport on one of the islands and a port on the main island.
+
+With the archipelago, the Russians also captured and took control of the oil platforms that were built by Finland in the Area, Gullfaks A and B, they are the most important assets in the area and we need to take them back.
+
+We are deploying a day ahead of a larger scale invasion, our role is to strike the ennemy at the most critical point, we need to gather intelligence and cut all of their communications between there and Russia.
+
+For that goal, we are deploying together with the French, supporting us with a Submarine, they are gonna jam Russian communications to cover our approach on the islands while sending a team to destroy a communication relay they have on Ruuskey island.
+
+On our side, we are gonna send Team 1 from HMS Portland on Säyvö island to gather intel and render both the airport and Russian air assets inoperable.
+
+Your job on the other hand will be to reach the main island and destroy an A-A site that prevents us from approaching the island with Air assets, for that you'll board the chopper behind you and head towards Iso sommeri island, where we know a Russian HQ is located, there you'll gather intel to try and find the exact location of the A-A site and any other intel we can get from there.
+
+If you can find the rough location of the A-A site, you'll then be able to reach the main island by going through an old mine that connects it to Iso Sommeri, the entrance is situated on the south-east of it, you'll find it marked on your map.
+
+When you are at the A-A site, try to gather any intel you will be able to find and once the site destroyed, head north-east to a hideout that the local resistance is supposed to have setup for us, use your Spectrum device on 141.8 to track and find the location, then take a break and wait for further tasking.
+
+For the R-O-E, this is supposed to be a covert operation, do not fire before being fired upon, but from the moment you get detected by the ennemy, engage on sight, do not forget about your main objective though, we need intel and this A-A site down for our troops to invade tomorrow. 
+
+HQ, codename Darkstar will keep communication open and update you on the situation if things evolve. And keep in mind that the Jamming provided by the French probably won't be enough for the Russians to be fully jammed on the island, be ready to face against a heavy, motivated and trained ennemy over there, and act accordingly.
+
+Understood ?!
+
+
+====================
+Flight to First Island
+====================
+- [Viper 2-1 | Radio | Before takeoff] Darkstar, Viper 2-1, Radio check
+- [Darkstar | Radio | Before takeoff] Viper 2-1, Darkstar got you 5 by 5
+- [Viper 2-1 | Radio | In front of ship's bow] Darkstar, Viper 2-1, Going radio silent
+- [Darkstar | Radio | In front of ship's bow] Viper 2-1, Darkstar, Roger that
+- [Darkstar | Radio | After 1:30 min] Team 2, Darkstar, We have got some activity on the radio around your first objective, all encrypted so we can't tell what it is all about but be ready to be engaged right on landing
+- [Viper 2-1 | Intercom | Before landing] 60 Seconds
+- [Viper 2-1 | Intercom | Before landing] 10 Seconds
+- [Viper 2-1 | Intercom | On landing] Go Go Go, good luck guys
+
+
+====================
+First island : After landing
+====================
+- [Darkstar | Radio | In a trigger before the base] Team 2, Darkstar, the Frenchs destroyed the communication relay between the archipelago and Russia, Russsian forces here will be on their own for a long while.
+- [Darkstar | Radio | 2 min after being detected] Team 2, Darkstar, There's a lot of activity on the radio now that you have been detected, expect reinforcements coming either by air or from the mine.
+
+
+====================
+First Island : After sending Data to HQ
+====================
+- [Darkstar | Radio | Directly after sending the data] Team 2, Darkstar, We have received all the data, coming back to you ASAP if we can find the location of the A-A site or any other info, stand-by.
+- [Darkstar | Radio | 45 secs later] Team 2, Darkstar, Nothing concrete but from the data we might have tracked what is probably the A-A site's location, marking the area on your map.
+
+
+====================
+First island : Before entering Tunnel
+====================
+
+
+
+====================
+Tunnel : When the MLRS are fired
+====================
+- [Darkstar | Radio | Trigger, low signal] Team 2, Darkstar, lots of radar contacts flying your direction, posssible M-L-R-S fired at the tunnel's entrance, possible impact in about 20 seconds, brace for impact, i repeat, brace brace brace!
+
+
+====================
+Main Island : After exiting the tunnel
+====================
+
+--------------------
+
+
+
+====================
+Main Island : When arriving closer to the AA site
+====================
+
+--------------------
+
+
+
+====================
+Main Island : After sending the first Data to HQ
+====================
+- [Darkstar | Radio | On intel upload] Team 2, Darkstar, Data received, stand-by.
+- [Darkstar | Radio | On intel upload] Team 2, Darkstar, seems like we have got 3 radar contacts heading your way, probably reinforcements coming by helicopter
+- [Darkstar | Radio | After 3 min] Team 2, Darkstar, Nothing more than A-A site related intel from this one, seems connected to a network close by, marking it on your map
+
+====================
+Main Island : After sending the second Data to HQ
+====================
+- [Darkstar | Radio | On intel upload] Team 2, Darkstar, Data received, stand-by.
+- [Darkstar | Radio | 45 secs later] Team 2, Darkstar, You can start heading to the hideout with the frequency we briefed you with for your Spectrum device
+
+
+====================
+Main Island : Arriving closer to the Hideout
+====================
+- [Darkstar | Radio | 45 secs later] Team 2, Darkstar, going radio silent from now until furthur tasking to avoid compromising your position, good luck out there
+
+
+====================
+Main Island : Mission end
+====================
+
+--------------------
