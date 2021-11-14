@@ -1,6 +1,6 @@
 // Plays music and add an action to destroy the radio that plays sounds and puts the radio's damage to 1 to stop it playing any sound
 
-[radio, ["russian_music_radio", 150, 1]] remoteExec ["say3d", 0, true]; 
+[radio, ["russian_music_radio", 100, 1]] remoteExec ["say3d", 0, true]; 
 
 
 radio addAction 

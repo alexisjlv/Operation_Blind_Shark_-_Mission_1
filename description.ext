@@ -21,6 +21,16 @@ respawnDelay = 5;
 respawnDialog = false;
 
 
+// === MUSICS
+class CfgMusic {
+	class intro_music
+	{
+		name = "intro_music";
+		sound[] = {\audio\intro_music.ogg, db+0, 1.0};
+		titles[] = {0, ""};	
+	};
+}
+
 
 // === SOUNDS
 
@@ -154,6 +164,96 @@ class CfgSounds
 	{
 		name = "briefing";
 		sound[] = {\audio\briefing.ogg, db+30, 1.0};
+		titles[] = {0, ""};	
+	};
+
+	// cave bgm
+	class cave_bgm
+	{
+		name = "cave_bgm";
+		sound[] = {\audio\cave_bgm.ogg, db+15, 1.0};
+		titles[] = {0, ""};	
+	};
+
+	// Darkstar
+	class darkstar_com_relay_cut
+	{
+		name = "darkstar_com_relay_cut";
+		sound[] = {\audio\darkstar_com_relay_cut.ogg, db+15, 1.0};
+		titles[] = {0, ""};	
+	};
+	class darkstar_engage_on_landing
+	{
+		name = "darkstar_engage_on_landing";
+		sound[] = {\audio\darkstar_engage_on_landing.ogg, db+15, 1.0};
+		titles[] = {0, ""};	
+	};
+	class darkstar_info_one_feedback
+	{
+		name = "darkstar_info_one_feedback";
+		sound[] = {\audio\darkstar_info_one_feedback.ogg, db+15, 1.0};
+		titles[] = {0, ""};	
+	};
+	class darkstar_info_one_stand_by
+	{
+		name = "darkstar_info_one_stand_by";
+		sound[] = {\audio\darkstar_info_one_stand_by.ogg, db+15, 1.0};
+		titles[] = {0, ""};	
+	};
+	class darkstar_loud_and_clear
+	{
+		name = "darkstar_loud_and_clear";
+		sound[] = {\audio\darkstar_loud_and_clear.ogg, db+15, 1.0};
+		titles[] = {0, ""};	
+	};
+	class darkstar_reinforcement_mine
+	{
+		name = "darkstar_reinforcement_mine";
+		sound[] = {\audio\darkstar_reinforcement_mine.ogg, db+15, 1.0};
+		titles[] = {0, ""};	
+	};
+	class darkstar_rockets_coming
+	{
+		name = "darkstar_rockets_coming";
+		sound[] = {\audio\darkstar_rockets_coming.ogg, db+15, 1.0};
+		titles[] = {0, ""};	
+	};
+	class darkstar_roger_that
+	{
+		name = "darkstar_roger_that";
+		sound[] = {\audio\darkstar_roger_that.ogg, db+15, 1.0};
+		titles[] = {0, ""};	
+	};
+
+	// Viper 2-1
+	class viper_2_1_10sec
+	{
+		name = "viper_2_1_10sec";
+		sound[] = {\audio\viper_2_1_10sec.ogg, db+15, 1.0};
+		titles[] = {0, ""};	
+	};
+	class viper_2_1_60sec
+	{
+		name = "viper_2_1_60sec";
+		sound[] = {\audio\viper_2_1_60sec.ogg, db+15, 1.0};
+		titles[] = {0, ""};	
+	};
+	class viper_2_1_go
+	{
+		name = "viper_2_1_go";
+		sound[] = {\audio\viper_2_1_go.ogg, db+15, 1.0};
+		titles[] = {0, ""};	
+	};
+	class viper_2_1_radio_check
+	{
+		name = "viper_2_1_radio_check";
+		sound[] = {\audio\viper_2_1_radio_check.ogg, db+15, 1.0};
+		titles[] = {0, ""};	
+	};
+	class viper_2_1_radio_silent
+	{
+		name = "viper_2_1_radio_silent";
+		sound[] = {\audio\viper_2_1_radio_silent.ogg, db+15, 1.0};
 		titles[] = {0, ""};	
 	};
 };
