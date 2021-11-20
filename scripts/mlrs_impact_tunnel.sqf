@@ -1,5 +1,8 @@
 // Plays sounds, make the camera shake and creates particles around the player for immersion purposes
 
+playSound "darkstar_rockets_coming";
+sleep 20;
+
 // [mlrs_explosions, ["mlrs_impact", 10000, 1]] remoteExec ["say3d", 0, true]; // Tesst 3D, not loud enough
 playSound "mlrs_impact";
 playSound "mlrs_impact";
@@ -31,7 +34,7 @@ _ps2 setParticleRandom [0, [60, 40, 0], [0.25, 0.25, 0], 0, 1.5, [0, 0, 0, 0], 0
 _ps2 setDropInterval 0.003;
 // end create dust
 
-sleep 2;
+sleep 1;
 addCamShake [4, 7, 4];
 
 // ceate rock fall
@@ -50,7 +53,7 @@ _ps1 setDropInterval 0.001;
 
 sleep 6.5;
 addCamShake [3, 4, 3];
-sleep 4;
+sleep 5;
 player playAction "PlayerCrouch";
 addCamShake [6, 6, 4];
 sleep 6;

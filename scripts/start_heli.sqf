@@ -7,13 +7,16 @@ _startHeliData = [[10,[-1547.55,-1921.77,8.553],[-0.52374,-0.851875,0.00218284],
 
 [start_heli, _startHeliData] spawn BIS_fnc_UnitPlay;
 
-playSound "viper_2_1_radio_check"; 
 
-sleep 3;
+sleep 8;
+
+playSound "viper_2_1_radio_check";
+
+sleep 6;
 
 playSound "darkstar_loud_and_clear"; 
 
-sleep 40;
+sleep 29;
 start_heli animateDoor ['door_R', 0];  
 start_heli animateDoor ['door_L', 0];
 start_heli action ["LandGearUp", start_heli]; 
@@ -26,7 +29,10 @@ start_heli animateDoor ['door_L', 1];
 sleep 10;
 start_heli action ["LandGear", start_heli]; 
 
-sleep 20;
+sleep 4;
+playSound "viper_2_1_go"; 
+
+sleep 16;
 start_heli animateDoor ['door_R', 0];  
 start_heli animateDoor ['door_L', 0];
 start_heli action ["LandGearUp", start_heli]; 

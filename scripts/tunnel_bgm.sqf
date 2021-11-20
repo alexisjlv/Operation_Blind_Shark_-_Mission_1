@@ -10,4 +10,4 @@ while {true} do {
     [cave_bgm_7, ["cave_bgm", 400, 1]] remoteExec ["say3d", 0, true];
     [cave_bgm_8, ["cave_bgm", 400, 1]] remoteExec ["say3d", 0, true];
     sleep 520;
-};  
+};

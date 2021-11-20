@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=3014;
+		nextID=3015;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=851;
+		nextID=947;
 	};
 	class Camera
 	{
-		pos[]={2120.0303,73.579597,2066.731};
-		dir[]={0.674739,-0.71194565,0.19457863};
-		up[]={0.68406981,0.70223451,0.19726941};
-		aside[]={0.27708495,0,-0.96084553};
+		pos[]={800.88641,42.415489,12151.938};
+		dir[]={0.74648684,-0.5997014,0.28829786};
+		up[]={0.55943,0.80022389,0.21605533};
+		aside[]={0.36027151,-1.4901161e-008,-0.93284762};
 	};
 };
 binarizationWanted=0;
@@ -3052,7 +3052,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=415;
+		items=416;
 		class Item0
 		{
 			dataType="Logic";
@@ -12409,6 +12409,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="Tunnel";
+			state=1;
 			class Entities
 			{
 				items=7;
@@ -52628,8 +52629,8 @@ class Mission
 		class Item146
 		{
 			dataType="Trigger";
-			position[]={868.55499,-59.961895,12169.129};
-			angle=4.351943;
+			position[]={861.33716,-59.961426,12168.367};
+			angle=0.97620827;
 			class Attributes
 			{
 				onActivation="[] execVM ""scripts\mlrs_impact_tunnel.sqf"";";
@@ -52641,7 +52642,7 @@ class Mission
 			};
 			id=2173;
 			type="EmptyDetectorAreaR50";
-			atlOffset=43.244999;
+			atlOffset=42.955727;
 		};
 		class Item147
 		{
@@ -61284,10 +61285,10 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={583.09399,3.4794846,1184.676};
-			angle=3.7660015;
+			angle=3.7659991;
 			class Attributes
 			{
-				onActivation="[] execVM ""scripts\first_heli_60sec.sqf"";";
+				onActivation="[] execVM ""scripts\first_heli_60_sec.sqf"";";
 				sizeA=1000;
 				sizeB=20;
 				activationBy="WEST";
@@ -61340,12 +61341,13 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={1724.3361,71.180359,1879.12};
-			angle=3.8522904;
+			angle=3.8522894;
 			class Attributes
 			{
-				onActivation="[] execVM ""scripts\first_heli_10sec.sqf"";";
+				onActivation="[] execVM ""scripts\first_heli_10_sec.sqf"";";
 				sizeA=1000;
 				sizeB=100;
+				timeout[]={11,11,11};
 				activationBy="WEST";
 				isRectangle=1;
 				triggerInterval=2;
@@ -61396,7 +61398,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={-1270.105,-0.77700043,-1733.441};
-			angle=3.7660015;
+			angle=3.7659991;
 			class Attributes
 			{
 				onActivation="[] execVM ""scripts\first_heli_infos.sqf"";";
@@ -61424,7 +61426,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={560.78699,1.6331329,1103.735};
-			angle=3.7660015;
+			angle=3.7659991;
 			class Attributes
 			{
 				sizeA=1000;
@@ -66695,7 +66697,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={7262.0566,64.089729,2866.8582};
-			angle=3.9643922;
+			angle=3.9643893;
 			class Attributes
 			{
 				onActivation="[] execVM ""scripts\aa_site_reinforcements_addpath.sqf"";";
@@ -66825,21 +66827,20 @@ class Mission
 		class Item298
 		{
 			dataType="Trigger";
-			position[]={2336.9641,11.187865,2090.8059};
+			position[]={2276.332,11.583847,2088.8123};
 			angle=4.8174033;
 			class Attributes
 			{
 				onActivation="[] execVM ""scripts\first_island_helicopter.sqf"";";
 				sizeA=100;
 				sizeB=20;
-				timeout[]={5,5,5};
 				activationBy="WEST";
 				isRectangle=1;
 				triggerInterval=2;
 			};
 			id=2700;
 			type="EmptyDetector";
-			atlOffset=9.5367432e-007;
+			atlOffset=2.7791586;
 		};
 		class Item299
 		{
@@ -68187,17 +68188,19 @@ class Mission
 		class Item325
 		{
 			dataType="Trigger";
-			position[]={3049.0029,8.9024944,2547.8511};
+			position[]={3050.718,8.9025726,2548.0769};
 			class Attributes
 			{
 				condition="!alive intelOne";
+				onActivation="[] execVM ""scripts\hack_laptop_1_done.sqf"";";
 				sizeA=0;
 				sizeB=0;
-				triggerInterval=5;
+				timeout[]={60,60,60};
+				triggerInterval=3;
 			};
 			id=2774;
 			type="EmptyDetector";
-			atlOffset=26.606001;
+			atlOffset=26.593002;
 		};
 		class Item326
 		{
@@ -68264,7 +68267,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
@@ -68498,12 +68501,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3052.803,-0.44199944,2649.5969};
+				position[]={3051.45,0,2752.5007};
 			};
 			init="[] execVM ""scripts\hack_laptop_1.sqf"";";
 			id=2779;
 			type="VirtualAISquad";
-			atlOffset=19.464001;
+			atlOffset=20.338524;
 		};
 		class Item330
 		{
@@ -68730,7 +68733,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
@@ -74143,7 +74146,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
@@ -74307,11 +74310,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={2856.625,-7.2231789,2547.584};
+				position[]={2849.7852,-7.2231445,2550.7288};
 			};
 			id=2918;
 			type="ModuleTaskSetState_F";
-			atlOffset=9.257;
+			atlOffset=9.1447029;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -77128,6 +77131,22 @@ class Mission
 				nAttributes=1;
 			};
 		};
+		class Item415
+		{
+			dataType="Trigger";
+			position[]={3047.8101,0.00024223328,2648.4141};
+			class Attributes
+			{
+				condition="!alive intelOne";
+				onActivation="[] execVM ""scripts\hack_laptop_1_wait.sqf"";";
+				sizeA=0;
+				sizeB=0;
+				triggerInterval=3;
+			};
+			id=3014;
+			type="EmptyDetector";
+			atlOffset=19.958;
+		};
 	};
 	class Connections
 	{
@@ -78431,8 +78450,8 @@ class Mission
 			class Item129
 			{
 				linkID=129;
-				item0=2918;
-				item1=2917;
+				item0=2863;
+				item1=2843;
 				class CustomData
 				{
 					type="Sync";
@@ -78441,8 +78460,8 @@ class Mission
 			class Item130
 			{
 				linkID=130;
-				item0=2774;
-				item1=2918;
+				item0=2941;
+				item1=2863;
 				class CustomData
 				{
 					type="Sync";
@@ -78451,8 +78470,8 @@ class Mission
 			class Item131
 			{
 				linkID=131;
-				item0=2863;
-				item1=2843;
+				item0=2945;
+				item1=2944;
 				class CustomData
 				{
 					type="Sync";
@@ -78461,8 +78480,8 @@ class Mission
 			class Item132
 			{
 				linkID=132;
-				item0=2941;
-				item1=2863;
+				item0=2949;
+				item1=2948;
 				class CustomData
 				{
 					type="Sync";
@@ -78471,8 +78490,8 @@ class Mission
 			class Item133
 			{
 				linkID=133;
-				item0=2945;
-				item1=2944;
+				item0=2963;
+				item1=2962;
 				class CustomData
 				{
 					type="Sync";
@@ -78481,8 +78500,8 @@ class Mission
 			class Item134
 			{
 				linkID=134;
-				item0=2949;
-				item1=2948;
+				item0=2415;
+				item1=2962;
 				class CustomData
 				{
 					type="Sync";
@@ -78491,8 +78510,8 @@ class Mission
 			class Item135
 			{
 				linkID=135;
-				item0=2963;
-				item1=2962;
+				item0=2918;
+				item1=2917;
 				class CustomData
 				{
 					type="Sync";
@@ -78501,8 +78520,8 @@ class Mission
 			class Item136
 			{
 				linkID=136;
-				item0=2415;
-				item1=2962;
+				item0=3014;
+				item1=2918;
 				class CustomData
 				{
 					type="Sync";

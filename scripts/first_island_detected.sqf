@@ -20,3 +20,7 @@ sleep 3;
 sleep 6;
 
 [angry_russian_4, ["russian_enemy_alt_2", 150, 1]] remoteExec ["say3d", 0, true]; 
+
+sleep 180;
+
+playSound "darkstar_reinforcement_mine";
