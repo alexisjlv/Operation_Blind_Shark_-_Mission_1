@@ -1,9 +1,9 @@
 // Plays sounds, make the camera shake and creates particles around the player for immersion purposes
 
 playSound "darkstar_rockets_coming";
-sleep 20;
+sleep 16;
 
-// [mlrs_explosions, ["mlrs_impact", 10000, 1]] remoteExec ["say3d", 0, true]; // Tesst 3D, not loud enough
+// [mlrs_explosions, ["mlrs_impact", 10000, 1]] remoteExec ["say3d", 0, true]; // Test 3D, not loud enough
 playSound "mlrs_impact";
 playSound "mlrs_impact";
 
@@ -61,7 +61,7 @@ addCamShake [4, 7, 4];
 sleep 7;
 addCamShake [3, 40, 4];
 
-sleep 30;
+sleep 35;
 
 // removes rock fall
 deleteVehicle _ps1;

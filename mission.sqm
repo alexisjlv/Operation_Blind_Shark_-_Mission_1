@@ -12,22 +12,22 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=3015;
+		nextID=3029;
 	};
 	class MarkerIDProvider
 	{
-		nextID=61;
+		nextID=62;
 	};
 	class LayerIndexProvider
 	{
-		nextID=947;
+		nextID=1019;
 	};
 	class Camera
 	{
-		pos[]={800.88641,42.415489,12151.938};
-		dir[]={0.74648684,-0.5997014,0.28829786};
-		up[]={0.55943,0.80022389,0.21605533};
-		aside[]={0.36027151,-1.4901161e-008,-0.93284762};
+		pos[]={-1558.3002,55.957989,-1990.5414};
+		dir[]={0.076433599,-0.9822219,0.17145862};
+		up[]={0.39992177,0.1877234,0.89711899};
+		aside[]={0.91335672,0,-0.40716031};
 	};
 };
 binarizationWanted=0;
@@ -3052,7 +3052,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=416;
+		items=429;
 		class Item0
 		{
 			dataType="Logic";
@@ -52630,7 +52630,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={861.33716,-59.961426,12168.367};
-			angle=0.97620827;
+			angle=0.97620815;
 			class Attributes
 			{
 				onActivation="[] execVM ""scripts\mlrs_impact_tunnel.sqf"";";
@@ -61341,7 +61341,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={1724.3361,71.180359,1879.12};
-			angle=3.8522894;
+			angle=3.852289;
 			class Attributes
 			{
 				onActivation="[] execVM ""scripts\first_heli_10_sec.sqf"";";
@@ -61571,7 +61571,7 @@ class Mission
 				onActivation="[] execVM ""scripts\first_island_detected.sqf"";";
 				sizeA=150;
 				sizeB=150;
-				timeout[]={5,7,9};
+				timeout[]={6,7,9};
 				interuptable=1;
 				activationType="EAST D";
 				activationBy="WEST";
@@ -66697,7 +66697,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={7262.0566,64.089729,2866.8582};
-			angle=3.9643893;
+			angle=3.9643886;
 			class Attributes
 			{
 				onActivation="[] execVM ""scripts\aa_site_reinforcements_addpath.sqf"";";
@@ -69174,11 +69174,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={5854.959,-0.00038933754,1746.666};
+				position[]={5850.833,0,1750.3535};
 			};
 			id=2811;
 			type="ModuleTaskSetState_F";
-			atlOffset=3.441;
+			atlOffset=3.4908032;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -77147,16 +77147,1016 @@ class Mission
 			type="EmptyDetector";
 			atlOffset=19.958;
 		};
+		class Item416
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={149.47122,0,11451.537};
+			};
+			id=3015;
+			type="ModuleCreateDiaryRecord_F";
+			atlOffset=99.743057;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCreateDiaryRecord_F_PresetTitle";
+					expression="_this setVariable ['PresetTitle',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Situation";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCreateDiaryRecord_F_Title";
+					expression="_this setVariable ['Title',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCreateDiaryRecord_F_Description";
+					expression="_this setVariable ['Description',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Nous sommes déployés sur l'archipel de Suursaari pour le reprendre des mains des Russes après qu'ils l'aient revendiqué et capturé l'année dernière, une action motivée par la découverte récente de gisements de pétrole et de gaz dans la région. L'archipel lui-même est également une position stratégique pour la Russie en raison de sa situation géographique, située entre la Finlande et l'Estonie, les voisins les plus proches de la Russie. Dès lors, la Russie a agi rapidement et a construit de nombreuses structures militaires sur l'archipel, notamment un aéroport sur l'une des îles et un port sur l'île principale.  " \n " <br/><br/> " \n "Avec l'archipel, les Russes ont également capturé et pris le contrôle des plateformes pétrolières construites par la Finlande dans la zone, Gullfaks A et B, ce sont les assets les plus importants de la zone et nous devons les reprendre.  " \n " <br/><br/><br/> " \n "Nous nous déployons un jour avant une invasion à grande échelle, notre rôle est de frapper l'ennemi au point le plus critique, nous devons obtenir des renseignements et couper toutes leurs communications entre l'archipel et la Russie.  " \n " <br/><br/> " \n "Pour cela, nous nous déployons avec les Français, qui nous soutiennent avec un sous-marin, ils vont brouiller les communications Russes pour couvrir notre approche sur les îles tout en envoyant une équipe pour détruire un relais de communication qu'ils ont sur l'île de Ruuskey.  " \n "<br/><br/> " \n "De notre côté, nous allons envoyer l'équipe 1 du HMS Portland sur l'île de Säyvö pour recueillir des informations et rendre l'aéroport et les aéronefs russes inopérants.";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCreateDiaryRecord_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCreateDiaryRecord_F_Subject";
+					expression="_this setVariable ['Subject',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item417
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={149.87488,0,11348.989};
+			};
+			id=3016;
+			type="ModuleCreateDiaryRecord_F";
+			atlOffset=99.699608;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCreateDiaryRecord_F_PresetTitle";
+					expression="_this setVariable ['PresetTitle',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Mission";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCreateDiaryRecord_F_Title";
+					expression="_this setVariable ['Title',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCreateDiaryRecord_F_Description";
+					expression="_this setVariable ['Description',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Votre travail consistera à atteindre l'île principale et à détruire un site antiaérien qui nous empêche d'approcher l'île avec des moyens aériens. Pour cela, vous monterez à bord de l'hélicoptère derrière vous et vous dirigerez vers l'île d'Iso Sommeri, où nous savons que se trouve un QG russe, où vous recueillerez des renseignements pour essayer de trouver l'emplacement exact du site antiaérien et tout autre renseignement que nous pourrons obtenir de là-bas. " \n "<br/><br/> " \n "Si vous pouvez trouver l'emplacement approximatif du site antiaérien , vous serez alors en mesure d'atteindre l'île principale en passant par une ancienne mine qui la relie à Iso Sommeri, l'entrée est située au sud-est de celle-ci, vous la trouverez marquée sur votre carte. " \n "<br/><br/> " \n "Lorsque vous êtes sur le site antiaérien, essayez de rassembler toutes les informations que vous pourrez trouver et une fois le site détruit, dirigez-vous vers le Nord-Est vers une cachette que la résistance locale est censée avoir mise en place pour nous, utilisez votre appareil Spectrum sur la fréquence 141.8 pour suivre et trouver l'emplacement puis attendez nouvel ordre pour la suite des opérations. " \n "<br/><br/> " \n "Pour ce qui est des R-O-E, c'est supposé être une opération secrète, ne tirez pas avant d'être engagé, mais à partir du moment où vous êtes détecté par l'ennemi, tirez à vue, n'oubliez pas votre objectif principal cependant, nous avons besoin d'informations et de ce site antiaérien détruit pour que nos troupes puissent envahire l'Ile demain.  " \n "<br/><br/> " \n "Le QG, nom de code Darkstar gardera la communication ouverte et vous informera de la situation si les choses évoluent. Gardez à l'esprit que le brouillage fourni par les forces Françaises ne sera probablement pas suffisant pour que les Russes soient complètement bloqués sur l'île, soyez prêts à faire face à un ennemi motivé et entraîné et agissez en conséquence.";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCreateDiaryRecord_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCreateDiaryRecord_F_Subject";
+					expression="_this setVariable ['Subject',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item418
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={2246.7,4.0054321e-005,2250.7471};
+			};
+			id=3017;
+			type="ModuleCreateDiaryRecord_F";
+			atlOffset=10.622001;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCreateDiaryRecord_F_PresetTitle";
+					expression="_this setVariable ['PresetTitle',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Execution";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCreateDiaryRecord_F_Title";
+					expression="_this setVariable ['Title',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="2 - Relai de communication coupé";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCreateDiaryRecord_F_Description";
+					expression="_this setVariable ['Description',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Team 2, Darkstar, les Français ont détruit le relais de communication entre l'archipel et la Russie, les forces russes ici seront livrées à elles-même pour un moment.";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCreateDiaryRecord_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCreateDiaryRecord_F_Subject";
+					expression="_this setVariable ['Subject',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Messages / Notes";
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item419
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={147.80499,0.61775208,849.34802};
+			};
+			id=3018;
+			type="ModuleCreateDiaryRecord_F";
+			atlOffset=101.692;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCreateDiaryRecord_F_PresetTitle";
+					expression="_this setVariable ['PresetTitle',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Execution";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCreateDiaryRecord_F_Title";
+					expression="_this setVariable ['Title',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1 - Activité sur la radio";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCreateDiaryRecord_F_Description";
+					expression="_this setVariable ['Description',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Team 2, Darkstar, Nous avons de l'activité sur la radio autour de votre premier objectif, tout est crypté donc nous ne pouvons pas dire de quoi il s'agit mais soyez prêt à engager dès l'atterrissage.";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCreateDiaryRecord_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCreateDiaryRecord_F_Subject";
+					expression="_this setVariable ['Subject',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Messages / Notes";
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item420
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3150.665,-0.0004196167,2755.1831};
+			};
+			id=3019;
+			type="ModuleCreateDiaryRecord_F";
+			atlOffset=20.943001;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCreateDiaryRecord_F_PresetTitle";
+					expression="_this setVariable ['PresetTitle',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Execution";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCreateDiaryRecord_F_Title";
+					expression="_this setVariable ['Title',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="4 - Intel reçu, stand-by";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCreateDiaryRecord_F_Description";
+					expression="_this setVariable ['Description',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Team 2, Darkstar, Nous avons reçu toutes les données, nous reviendrons vers vous dès que possible si nous pouvons trouver l'emplacement du site A-A ou toute autre information, en attente.";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCreateDiaryRecord_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCreateDiaryRecord_F_Subject";
+					expression="_this setVariable ['Subject',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Messages / Notes";
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item421
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3151.1431,0.80789375,2650.0259};
+			};
+			id=3020;
+			type="ModuleCreateDiaryRecord_F";
+			atlOffset=17.409;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCreateDiaryRecord_F_PresetTitle";
+					expression="_this setVariable ['PresetTitle',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Execution";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCreateDiaryRecord_F_Title";
+					expression="_this setVariable ['Title',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="5 - Intel reçu, infos";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCreateDiaryRecord_F_Description";
+					expression="_this setVariable ['Description',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Team 2, Darkstar, Rien de concret mais d'après les données que nous avons pu tracer ce qui est probablement l'emplacement du site Ay Ay, en marquant la zone sur votre carte, vous allez devoir trouver votre chemin vers l'île à travers les tunnels de la mine.";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCreateDiaryRecord_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCreateDiaryRecord_F_Subject";
+					expression="_this setVariable ['Subject',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Messages / Notes";
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item422
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={2750.0791,-0.00019884109,2150.9031};
+			};
+			id=3021;
+			type="ModuleCreateDiaryRecord_F";
+			atlOffset=1.72;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCreateDiaryRecord_F_PresetTitle";
+					expression="_this setVariable ['PresetTitle',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Execution";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCreateDiaryRecord_F_Title";
+					expression="_this setVariable ['Title',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="3 - Renforts en approche";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCreateDiaryRecord_F_Description";
+					expression="_this setVariable ['Description',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Team 2, Darkstar, Il y a beaucoup d'activité sur la radio maintenant que vous avez été repérés, attendez-vous à des renforts qui arrivent soit par air soit par terre, en provenance de la mine à l'est de votre position.";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCreateDiaryRecord_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCreateDiaryRecord_F_Subject";
+					expression="_this setVariable ['Subject',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Messages / Notes";
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item423
+		{
+			dataType="Trigger";
+			position[]={2505.4519,6.5928335,2077.761};
+			class Attributes
+			{
+				sizeA=150;
+				sizeB=150;
+				timeout[]={200,200,200};
+				activationType="EAST D";
+				activationBy="WEST";
+			};
+			id=3022;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item424
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={947.31799,0,12253.673};
+			};
+			id=3023;
+			type="ModuleCreateDiaryRecord_F";
+			atlOffset=100.633;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCreateDiaryRecord_F_PresetTitle";
+					expression="_this setVariable ['PresetTitle',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Execution";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCreateDiaryRecord_F_Title";
+					expression="_this setVariable ['Title',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="6 - MLRS en direction du tunnel";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCreateDiaryRecord_F_Description";
+					expression="_this setVariable ['Description',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Team 2, Darkstar, plusieurs contacts radar dans votre direction, possibilité de M-L-R-S tirés à l'entrée du tunnel, impact potentiel dans environ 20 secondes, préparez-vous à l'impact, je répète, préparez-vous à l'impact !";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCreateDiaryRecord_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCreateDiaryRecord_F_Subject";
+					expression="_this setVariable ['Subject',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Messages / Notes";
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item425
+		{
+			dataType="Marker";
+			position[]={150,0.796,6749.5498};
+			name="radio_common";
+			text="Commandement / Commune : 100 Mhz / Chan 1";
+			type="mil_box";
+			colorName="ColorYellow";
+			id=3024;
+			atlOffset=78.297989;
+		};
+		class Item426
+		{
+			dataType="Marker";
+			position[]={150,0,6550.7842};
+			name="radio_alpha";
+			text="Alpha : 110 Mhz  / Chan 2";
+			type="mil_box";
+			colorName="ColorBlue";
+			id=3026;
+			atlOffset=75.30732;
+		};
+		class Item427
+		{
+			dataType="Marker";
+			position[]={150,0,6351.48};
+			name="radio_bravo";
+			text="Alpha : 120 Mhz / Chan 3";
+			type="mil_box";
+			colorName="ColorRed";
+			id=3027;
+			atlOffset=86.1175;
+		};
+		class Item428
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={-1552.5048,0.51611328,-1949.8439};
+			};
+			id=3028;
+			type="tfar_ModuleTaskForceRadioFrequencies";
+			atlOffset=103.21611;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="tfar_ModuleTaskForceRadioFrequencies_LrFreq";
+					expression="_this setVariable ['LrFreq',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[""100"",""110"",""120""]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="tfar_ModuleTaskForceRadioFrequencies_Units";
+					expression="_this setVariable ['Units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="tfar_ModuleTaskForceRadioFrequencies_PrFreq";
+					expression="_this setVariable ['PrFreq',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[""100"",""110"",""120""]";
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=137;
+			nextID=145;
 		};
 		class Links
 		{
-			items=137;
+			items=145;
 			class Item0
 			{
 				linkID=0;
@@ -78522,6 +79522,86 @@ class Mission
 				linkID=136;
 				item0=3014;
 				item1=2918;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item137
+			{
+				linkID=137;
+				item0=2331;
+				item1=3017;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item138
+			{
+				linkID=138;
+				item0=2774;
+				item1=3020;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item139
+			{
+				linkID=139;
+				item0=3014;
+				item1=3019;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item140
+			{
+				linkID=140;
+				item0=3022;
+				item1=3021;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item141
+			{
+				linkID=141;
+				item0=3023;
+				item1=2173;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item142
+			{
+				linkID=142;
+				item0=3018;
+				item1=2314;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item143
+			{
+				linkID=143;
+				item0=3028;
+				item1=5;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item144
+			{
+				linkID=144;
+				item0=3028;
+				item1=1546;
 				class CustomData
 				{
 					type="Sync";
