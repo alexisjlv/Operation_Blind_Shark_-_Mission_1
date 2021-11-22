@@ -224,6 +224,51 @@ class CfgSounds
 		titles[] = {0, ""};	
 	};
 
+	class darkstar_info_two_stand_by
+	{
+		name = "darkstar_info_two_stand_by";
+		sound[] = {\audio\darkstar_info_two_stand_by.ogg, db+20, 1.0};
+		titles[] = {0, ""};	
+	};
+	class darkstar_info_two_reinforcements
+	{
+		name = "darkstar_info_two_reinforcements";
+		sound[] = {\audio\darkstar_info_two_reinforcements.ogg, db+20, 1.0};
+		titles[] = {0, ""};	
+	};
+	class darkstar_info_two_feedback
+	{
+		name = "darkstar_info_two_feedback";
+		sound[] = {\audio\darkstar_info_two_feedback.ogg, db+20, 1.0};
+		titles[] = {0, ""};	
+	};
+	class darkstar_info_two_head_to_hideout
+	{
+		name = "darkstar_info_two_head_to_hideout";
+		sound[] = {\audio\darkstar_info_two_head_to_hideout.ogg, db+20, 1.0};
+		titles[] = {0, ""};	
+	};
+	class darkstar_info_two_last_com
+	{
+		name = "darkstar_info_two_last_com";
+		sound[] = {\audio\darkstar_info_two_last_com.ogg, db+20, 1.0};
+		titles[] = {0, ""};	
+	};
+	class darkstar_before_tunnel
+	{
+		name = "darkstar_before_tunnel";
+		sound[] = {\audio\darkstar_before_tunnel.ogg, db+20, 1.0};
+		titles[] = {0, ""};	
+	};
+	class darkstar_resupply
+	{
+		name = "darkstar_resupply";
+		sound[] = {\audio\darkstar_resupply.ogg, db+20, 1.0};
+		titles[] = {0, ""};	
+	};
+
+
+
 	// Viper 2-1
 	class viper_2_1_10sec
 	{

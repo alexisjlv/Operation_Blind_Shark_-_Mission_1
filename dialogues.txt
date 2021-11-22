@@ -64,47 +64,46 @@ Understood ?!
 ====================
 Flight to First Island
 ====================
-- [Viper 2-1 | Radio | Before takeoff] Darkstar, Viper 2-1, Radio check
-- [Darkstar | Radio | Before takeoff] Viper 2-1, Darkstar, received you loud and clear
-- [Viper 2-1 | Radio | In front of ship's bow] Darkstar, Viper 2-1, Going radio silent
-- [Darkstar | Radio | In front of ship's bow] Viper 2-1, Darkstar, Roger that
-- [Darkstar | Radio | After 1:30 min] Team 2, Darkstar, We have got some activity on the radio around your first objective, all encrypted so we can't tell what it is all about but be ready to engage right on landing
-- [Viper 2-1 | Intercom | Before landing] 60 Seconds
-- [Viper 2-1 | Intercom | Before landing] 10 Seconds
-- [Viper 2-1 | Intercom | On landing] Go Go Go
+OK - [Viper 2-1 | Radio | Before takeoff] Darkstar, Viper 2-1, Radio check
+OK - [Darkstar | Radio | Before takeoff] Viper 2-1, Darkstar, received you loud and clear
+OK - [Viper 2-1 | Radio | In front of ship's bow] Darkstar, Viper 2-1, Going radio silent
+OK - [Darkstar | Radio | In front of ship's bow] Viper 2-1, Darkstar, Roger that
+OK - [Darkstar | Radio | After 1:30 min] Team 2, Darkstar, We have got some activity on the radio around your first objective, all encrypted so we can't tell what it is all about but be ready to engage right on landing
+OK - [Viper 2-1 | Intercom | Before landing] 60 Seconds
+OK - [Viper 2-1 | Intercom | Before landing] 10 Seconds
+OK - [Viper 2-1 | Intercom | On landing] Go Go Go
 
 
 ====================
 First island : After landing
 ====================
-- [Darkstar | Radio | In a trigger before the base] Team 2, Darkstar, the Frenchs destroyed the communication relay between the archipelago and Russia, Russsian forces here will be on their own for a little while.
-- [Darkstar | Radio | 2 min after being detected] Team 2, Darkstar, There's a lot of activity on the radio now that you have been spotted, expect reinforcements coming either by air or from the ground, coming from the mine to the east of your location.
+OK - [Darkstar | Radio | In a trigger before the base] Team 2, Darkstar, the Frenchs destroyed the communication relay between the archipelago and Russia, Russsian forces here will be on their own for a little while.
+OK - [Darkstar | Radio | 2 min after being detected] Team 2, Darkstar, There's a lot of activity on the radio now that you have been spotted, expect reinforcements coming either by air or from the ground, coming from the mine to the east of your location.
 
 
 ====================
 First Island : After sending Data to HQ
 ====================
-- [Darkstar | Radio | Directly after sending the data] Team 2, Darkstar, We have received all the data, coming back to you ASAP if we can find the location of the A-A site or any other info, stand-by.
-- [Darkstar | Radio | 45 secs later] Team 2, Darkstar, Nothing concrete but from the data we might have tracked what is probably the Ay Ay site's location, marking the area on your map, you are gonna have to find your way to the island through the mine's tunnels.
+OK - [Darkstar | Radio | Directly after sending the data] Team 2, Darkstar, We have received all the data, coming back to you ASAP if we can find the location of the A-A site or any other info, stand-by.
+OK - [Darkstar | Radio | 45 secs later] Team 2, Darkstar, Nothing concrete but from the data we might have tracked what is probably the Ay Ay site's location, marking the area on your map, you are gonna have to find your way to the island through the mine's tunnels.
 
 
 ====================
 First island : Before entering Tunnel
 ====================
-
+[Darkstar | Radio | before tunnel] Team 2, We are gonna lose our connection once you enter the tunnel, might be able to receive me but won't be able to transmit back, will contact you again once you are back outside
 
 
 ====================
 Tunnel : When the MLRS are fired
 ====================
-- [Darkstar | Radio | Trigger, low signal] Team 2, Darkstar, multiple radar contacts flying your direction, posssible M-L-R-S fired at the tunnel's entrance, potential impact in about 20 seconds, brace for impact, i repeat, brace brace brace!
+OK - [Darkstar | Radio | Trigger, low signal] Team 2, Darkstar, multiple radar contacts flying your direction, posssible M-L-R-S fired at the tunnel's entrance, potential impact in about 20 seconds, brace for impact, i repeat, brace brace brace!
 
 
 ====================
 Main Island : After exiting the tunnel
 ====================
-
---------------------
+[Darkstar | Radio | exiting tunnel] Team 2, Glad to see you back in one piece, you're probably getting short on meds and ammo, looks like the reinforcement you encountered in the tunnels left their trucks and equipment, look around see if you can find crates to resupply before heading to the Ay Ay site
 
 
 

@@ -2,3 +2,7 @@
 
 [truck_radio_1, ["russian_music_radio_low", 30, 1]] remoteExec ["say3d", 0, true]; 
 [truck_radio_2, ["russian_music_radio_low", 20, 1]] remoteExec ["say3d", 0, true]; 
+
+sleep 20;
+
+playSound "darkstar_resupply"; 
