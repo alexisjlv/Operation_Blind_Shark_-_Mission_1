@@ -11,3 +11,5 @@ _helicopterReinforcementData3 = [[10,[6081.34,6466.2,75.7887],[0.261366,-0.96524
 [helicopter_reinforcement_1, _helicopterReinforcementData1] spawn BIS_fnc_UnitPlay;
 [helicopter_reinforcement_2, _helicopterReinforcementData2] spawn BIS_fnc_UnitPlay;
 [helicopter_reinforcement_3, _helicopterReinforcementData3] spawn BIS_fnc_UnitPlay;
+
+playSound "darkstar_info_two_reinforcements";

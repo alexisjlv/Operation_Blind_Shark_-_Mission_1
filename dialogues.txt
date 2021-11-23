@@ -91,7 +91,7 @@ OK - [Darkstar | Radio | 45 secs later] Team 2, Darkstar, Nothing concrete but f
 ====================
 First island : Before entering Tunnel
 ====================
-[Darkstar | Radio | before tunnel] Team 2, We are gonna lose our connection once you enter the tunnel, might be able to receive me but won't be able to transmit back, will contact you again once you are back outside
+OK - [Darkstar | Radio | before tunnel] Team 2, We are gonna lose our connection once you enter the tunnel, might be able to receive me but won't be able to transmit back, will contact you again once you are back outside
 
 
 ====================
@@ -103,7 +103,7 @@ OK - [Darkstar | Radio | Trigger, low signal] Team 2, Darkstar, multiple radar c
 ====================
 Main Island : After exiting the tunnel
 ====================
-[Darkstar | Radio | exiting tunnel] Team 2, Glad to see you back in one piece, you're probably getting short on meds and ammo, looks like the reinforcement you encountered in the tunnels left their trucks and equipment, look around see if you can find crates to resupply before heading to the Ay Ay site
+OK - [Darkstar | Radio | exiting tunnel] Team 2, Glad to see you back in one piece, you're probably getting short on meds and ammo, looks like the reinforcement you encountered in the tunnels left their trucks and equipment, look around see if you can find crates to resupply before heading to the Ay Ay site
 
 
 
@@ -118,21 +118,21 @@ Main Island : When arriving closer to the AA site
 ====================
 Main Island : After sending the first Data to HQ
 ====================
-- [Darkstar | Radio | On intel upload] Team 2, Darkstar, Data received, stand-by.
-- [Darkstar | Radio | On intel upload] Team 2, Darkstar, seems like we have got 3 radar contacts heading your way, probably reinforcements coming by helicopter
-- [Darkstar | Radio | After 3 min] Team 2, Darkstar, Nothing more than A-A site related intel from this one, seems connected to a network close by, marking it on your map
+OK - [Darkstar | Radio | On intel upload] Team 2, Darkstar, Data received, stand-by.
+[Darkstar | Radio | On intel upload] Team 2, Darkstar, seems like we have got 3 radar contacts heading your way, probably reinforcements coming by helicopter
+OK - [Darkstar | Radio | After 3 min] Team 2, Darkstar, Nothing more than A-A site related intel from this one, seems connected to a network close by, marking it on your map
 
 ====================
 Main Island : After sending the second Data to HQ
 ====================
-- [Darkstar | Radio | On intel upload] Team 2, Darkstar, Data received, stand-by.
-- [Darkstar | Radio | 45 secs later] Team 2, Darkstar, You can start heading to the hideout with the frequency we briefed you with for your Spectrum device
+OK - [Darkstar | Radio | On intel upload] Team 2, Darkstar, Data received, stand-by.
+OK - [Darkstar | Radio | 45 secs later] Team 2, Darkstar, You can start heading to the hideout with the frequency we briefed you with for your Spectrum device
 
 
 ====================
 Main Island : Arriving closer to the Hideout
 ====================
-- [Darkstar | Radio | 45 secs later] Team 2, Darkstar, going radio silent from now until furthur tasking to avoid compromising your position, good luck out there
+OK - [Darkstar | Radio | 45 secs later] Team 2, Darkstar, going radio silent from now until furthur tasking to avoid compromising your position, good luck out there
 
 
 ====================

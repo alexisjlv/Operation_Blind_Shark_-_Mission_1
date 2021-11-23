@@ -1,0 +1,1 @@
+playSound "darkstar_info_two_head_to_hideout";

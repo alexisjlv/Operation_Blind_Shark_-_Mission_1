@@ -6,3 +6,13 @@
 sleep 20;
 
 playSound "darkstar_resupply"; 
+
+
+"aa_site_assault_1" setMarkerAlpha 1;
+"aa_site_assault_2" setMarkerAlpha 1;
+"aa_site_assault_3" setMarkerAlpha 1;
+"aa_site_assault_4" setMarkerAlpha 1;
+"aa_site_assault_5" setMarkerAlpha 1;
+"aa_site_assault_6" setMarkerAlpha 1;
+"aa_site_assault_7" setMarkerAlpha 1;
+"aa_site_assault_8" setMarkerAlpha 1;
